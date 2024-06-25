@@ -10,8 +10,8 @@ import tensorflow as tf
 
 
 
-GENERATIVE_AI_MODEL_REPO = "TheBloke/LLaMA-Pro-8B-GGUF"
-GENERATIVE_AI_MODEL_FILE = "llama-pro-8b.Q3_K_M.gguf"
+GENERATIVE_AI_MODEL_REPO = "IlyaGusev/saiga_llama3_8b_gguf"
+GENERATIVE_AI_MODEL_FILE = "model-q2_K.gguf"
 
 model_path = hf_hub_download(
     repo_id=GENERATIVE_AI_MODEL_REPO,
